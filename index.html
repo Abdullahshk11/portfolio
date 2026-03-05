@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <header>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#about">AboutMe</a></li>
+                    <li><a href="#Skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+        </header>
+        <main>
+            <section id="about">
+                <div class="about_lines">
+                    <h1>HI, Iam <span style="color: purple;">Abdullah</span></h1>
+                    <span id="element"></span>
+                </div>
+                <div class="about_pic">
+                    <!-- <img src="pic.jpg" alt="pic"> -->
+                </div>
+            </section>
+            <section id="Skills">
+                <div class="card">
+                    <img src="html.png" alt="HTML">
+                    <p>HTML (HyperText Markup Language) is the standard language used to create and structure content on
+                        the web.
+                        It uses elements and tags to organize text, images, links, and other content in web browsers.
+                    </p>
+                </div>
+                <div class="card">
+                    <img src="css.jpeg" alt="CSS">
+                    <p>CSS (Cascading Style Sheets) is a style sheet language used to describe the presentation of a
+                        document written in HTML or XML.
+                        It controls the layout, colors, fonts, and other visual aspects of web pages.</p>
+                </div>
+                <div class="card">
+                    <img src="js.png" alt="JavaScript">
+                    <p>JavaScript is a programming language that enables interactive web pages.
+                        It is an essential part of web applications and is used to create dynamic content and user
+                        interactions.</p>
+                </div>
+                <div class="card">
+                    <img src="Node.js_logo.svg.png" alt="Node.js">
+                    <p>Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine.
+                        It allows developers to run JavaScript code server-side, enabling full-stack development with a
+                        single language.</p>
+                </div>
+                <div class="card">
+                    <img src="react-js.png" alt="React.js">
+                    <p>React.js is a JavaScript library for building user interfaces.
+                        It allows developers to create reusable UI components and manage application state efficiently.
+                    </p>
+                </div>
+                <div class="card">
+                    <img src="tailwindcss-logo.png" alt="Tailwind CSS">
+                    <p>Tailwind CSS is a utility-first CSS framework for rapidly building custom user interfaces.
+                        It provides low-level utility classes that allow developers to build designs without writing
+                        custom CSS.</p>
+                </div>
+
+            </section>
+            <section id="contact">
+                <form>
+                    <input type="text" id="E-mail" placeholder="Enter your's E-mail">
+                    <input type="text" id="msg" placeholder="Any Question">
+                    <button class="btn" type="submit">Submit</button>
+                </form>
+            </section>
+        </main>
+        <script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js"></script>
+        <script>
+            var typed = new Typed('#element', {
+                strings: ['Building websites', 'Responsive design', 'Improving website speed and performance', 'Writing clean and efficient code', 'Freelancer',],
+                typeSpeed: 50,
+            });
+        </script>
+        <script src="script.js"></script>
+    </body>
+
+</html>
