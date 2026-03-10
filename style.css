@@ -102,13 +102,13 @@ header nav a {
 }
 
 .about_pic {
-    /* height: 70vh;
+    height: 70vh;
     width: 50vw;
     border: 2px solid black;
      display: flex;
     align-items: center;
     justify-content: center;
-    padding-right: 0px; */
+    padding-right: 0px;
 }
 
 #Skills img {
@@ -219,3 +219,4 @@ button.btn {
     cursor: pointer;
 
 }
+
