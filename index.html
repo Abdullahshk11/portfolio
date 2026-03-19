@@ -17,6 +17,7 @@
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
+            </nav>
         </header>
         <main>
             <section id="about">
@@ -28,6 +29,7 @@
 
                 </div>
             </section>
+            <h1 class="title"><span>Skills</span></h1>
             <section id="Skills">
                 <div class="card">
                     <img src="html.png" alt="HTML">
@@ -68,18 +70,35 @@
                 </div>
 
             </section>
+            <h1 class="title"><span>Projects</span></h1>
             <section id="projects">
+                
                 <div class="project_card">
-                    <h2>Project 1</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate.</p>
+                    <h2>Calculator</h2>
+                    <a href="https://abdullahshk11.github.io/calculator/" target="_blank"> <img src="Calculator.png"
+                            alt="Calculator"></a>
+                    <br>
+                    <a href="https://abdullahshk11.github.io/calculator/" target="_blank"><button class="btn">View
+                            Project</button></a>
+                    <p>The calculator project is a simple application that allows users to perform basic arithmetic
+                        operations.</p>
                 </div>
                 <div class="project_card">
-                    <h2>Project 2</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate.</p>
+                    <h2>Todo-list</h2>
+                    <a href="https://abdullahshk11.github.io/Todo-list/" target="_blank"> <img src="Todo-list.png"
+                            alt="Todo-list"></a>
+                    <a href="https://abdullahshk11.github.io/Todo-list/" target="_blank"><button class="btn">View
+                            Project</button></a>
+                    <p>The todo-list project is a simple application for managing tasks.</p>
                 </div>
                 <div class="project_card">
-                    <h2>Project 3</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate.</p>
+                    <h2>tasbeeh-counter</h2>
+                    <a href="https://abdullahshk11.github.io/tasbeeh-counter/" target="_blank"> <img src="pro 3.jpg"
+                            alt="tasbeeh-counter"></a>
+                    <a href="https://abdullahshk11.github.io/tasbeeh-counter/" target="_blank"><button class="btn">View
+                            Project</button></a>
+                    <p>The tasbeeh-counter project is a simple application that allows users to keep track of their
+                        tasbeeh counts.</p>
                 </div>
 
             </section>
@@ -87,15 +106,18 @@
                 <form>
                     <input type="text" id="E-mail" placeholder="Enter your's E-mail">
                     <input type="text" id="msg" placeholder="Any Question">
-                    <button class="btn" type="submit">Submit</button>
+                    <button class="btn" id="btn" type="submit">Submit</button>
                 </form>
             </section>
         </main>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"
+            integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js"></script>
         <script>
             var typed = new Typed('#element', {
-                strings: ['Building websites', 'Responsive design', 'Improving website speed and performance', 'Writing clean and efficient code', 'Freelancer',],
-                typeSpeed: 50,
+                strings: [`welcome `,'Building websites', 'Responsive design', 'Writing clean and efficient code', 'Freelancer',],
+                typeSpeed: 60,
             });
         </script>
         <script src="script.js"></script>
